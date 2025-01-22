@@ -12,9 +12,14 @@ int main()
   //  OR
   // 2. size(arr) for c++ 17 and above
   // CODE HERE
-  
-  
+  // n = sizeof(arr)/sizeof(arr[0]);
+  n = size(arr)
+  // cout << n;
   // Write an iterative loop to visit each and every element of an array.
   // CODE HERE
+   for(int i=0; i<n; i++)
+    {
+      cout << " " << arr[i];
+    }
     return 0;
 }
